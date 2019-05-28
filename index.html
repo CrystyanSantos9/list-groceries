@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+
+<head>
+ <meta charset="UTF-8">
+<link rel="stylesheet" href="folha.css" type="text/css">
+<script src="jquery-3.4.0.min.js" type="text/javascript"></script>
+<script src="java.js" type="text/javascript"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+	
+	<div>
+		<form method="get">
+			<label for="prodc">Produtos: </label>
+				<input type="text" id="prodc" name="produto" placeholder="Produtos">
+			<label for="unid">Unidades</label>
+				<select id="unid" name="unidades">
+					<option value="kg">KG</option>
+				</select>
+			<label for="qtdprod">Quantidade: </label>
+				<input type="text" id="qtd" name="produto" placeholder="Insira a quantidade">
+				
+				<label for="qtdprod">Valor: </label>
+				<input type="text" id="vlr" name="valor" placeholder="Insira valor unitario">
+			
+		</form>
+		
+		<button id="botao1" onclick="teste()">Novo Produto</button>
+		<button id="botao1" onclick="total()">Total Produtos</button>
+
+	</div>
+	
+	<hr>
+	
+	<div id="dados">
+		<h1>Protudos Cadastrados</h1>
+	</div>
+	
+	
+</body>
+</html>

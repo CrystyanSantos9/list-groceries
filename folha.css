@@ -1,0 +1,74 @@
+body {
+	margin:0;
+	padding:20px;
+}
+
+
+div {
+	border-radius: 5px;
+	background-color:#f2f2f2;
+	padding:1.5em;
+	width:90%;
+}
+
+#dados {
+	background-color:#fff;
+}
+
+
+input[type=text],select {
+	width: 100%;
+	padding:0.85em;
+	margin:8px 0;
+	display: inline-block;
+	border: 4px;
+	box-sizing: border-box;
+	
+}
+
+
+
+
+
+button {
+	
+	padding: 20 px;
+	
+}
+
+#id {
+	color:white;
+	font-size:1.5em;
+	background-color:blue;
+}
+
+
+input [type=text] {
+	
+}
+
+
+input[type=checkbox]:checked + #id{
+  animation-name: example;
+  animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+
+} 
+
+input[type=checkbox]:checked {
+  
+
+	display:none;
+  
+  
+} 
+
+@keyframes example {
+  0% {background-color:blue;}
+  100% {background-color:red;}
+		
+
+  
+}
+
